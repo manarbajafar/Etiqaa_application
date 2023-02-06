@@ -37,7 +37,10 @@ Click on the New… button under the User variables panel.
 Type CAMELTOOLS_DATA in the Variable name input box and path the project from your device(for example: D:\desktop\etiqaa_app\python_files) in Variable value. Alternatively, you can browse for the data directory by clicking on the Browse Directory… button.
 Click OK on all the opened windows.
 
-3.If you are running the application on a physical mobile, first connect to the same computer network, then go to computer settings, then networks, then Wi-Fi, then the network characteristics that you are connected to, copy the ipv4 address and put it in the file etiqaa_app\python_files\MLmodel.py line 106 in the url variable and also You put it in etiqaa_app\etiqaa\lib\database\linkApi.dart file on line 1 in linkServerName variable
+3.If you are running the application on a physical mobile, first connect to the same computer network, then go to computer settings, then networks, then Wi-Fi, then the network characteristics that you are connected to, copy the ipv4 address and put it in:
+- etiqaa_app\python_files\MLmodel.py line 106 in the url variable
+- etiqaa_app\etiqaa\lib\database\linkApi.dart file on line 1 in linkServerName variable
+- etiqaa_app\etiqaa\lib\controllers\childUncomplete_controller.dart line 30
 
 4. run php server
 
